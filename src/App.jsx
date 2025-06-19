@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import BackButton from "./components/BackButton";
 import SectionTitle from "./components/SectionTitle";
 import IconBox from "./components/IconBox";
+import BookingInfoBox from "./components/BookingInfoBox";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <BackButton />
       <SectionTitle />
       <IconBox />
+      <BookingInfoBox />
     </div>
   );
 }
